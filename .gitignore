@@ -1,0 +1,24 @@
+# data and outputs
+data/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.wav
+*.flac
+*.mp3
+*.mid
+*.midi
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# env
+.venv/
+.env/
+.DS_Store

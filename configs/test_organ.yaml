@@ -1,0 +1,8 @@
+experiment_name: E1_piano_to_organ_test
+
+data:
+  source_domain: piano
+  target_domain: organ
+
+evaluation:
+  checkpoint: outputs/experiments/E0_train_piano_baseline/checkpoints/best.pt

@@ -1,0 +1,22 @@
+name: organ-amt
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pytorch
+  - torchaudio
+  - tqdm
+  - pyyaml
+  - tensorboard
+  - pip:
+      - librosa
+      - pretty_midi
+      - mir_eval

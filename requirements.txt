@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+torch
+torchaudio
+librosa
+pretty_midi
+mir_eval
+tqdm
+pyyaml
+tensorboard
