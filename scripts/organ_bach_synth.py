@@ -72,13 +72,17 @@ def main():
             cmd = [
                 fluidsynth_exe,
                 "-ni",
-                str(soundfont),
-                str(midi_path),
+                "-a",
+                "file",
                 "-F",
                 str(wav_path),
+                "-T",
+                "wav",
                 "-r",
                 str(sample_rate),
-            ]
+                str(soundfont),
+                str(midi_path),
+                    ]
 
             subprocess.run(cmd, check=True)
 
