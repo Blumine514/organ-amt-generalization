@@ -140,6 +140,8 @@ Instrument not found on channel ...
 
 ```text
 某些 MIDI channel 请求的 preset 在当前 SoundFont 中不存在，FluidSynth 会自动替换。
+这里一个是鼓轨，管风琴里面没有鼓轨，另一个是音色编号不存在，自动替换音色
+只要是管风琴音色即可
 ```
 
 当前处理方式：
