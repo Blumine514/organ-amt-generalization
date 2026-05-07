@@ -1,9 +1,0 @@
-experiment_name: E2_piano_augmentation
-
-data:
-  train_domain: piano
-  augmentation:
-    pitch_shift: true
-    time_stretch: true
-    noise: true
-    reverb: true
