@@ -106,7 +106,7 @@
 
 | Name | Version |
 |---|---:|
-| Python | 3.14.4 |
+| Python | 3.10.20|
 | pip | latest |
 | conda | latest |
 
@@ -141,7 +141,7 @@
 | mido | 1.3.3 |
 | music21 | 9.9.1 |
 | mir_eval | 0.8.2 |
-
+|ffmpeg|8.11|
 ### Notebook / Logging
 
 | Package | Version |
