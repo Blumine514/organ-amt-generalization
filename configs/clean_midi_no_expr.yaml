@@ -1,0 +1,17 @@
+# clean_midi_no_expr.yaml
+
+input_midi_dir: "D:/organ-amt-generalization/data/raw/organ/BWV545/midi"
+output_midi_dir: "D:/organ-amt-generalization/data/processed/clearmidi_noexpr"
+
+target_channel: 1
+
+recursive: false
+preserve_subfolders: true
+overwrite: true
+
+keep_meta_events: true
+remove_sysex: true
+remove_unknown_channel_events: true
+
+write_metadata: true
+metadata_filename: "clean_midi_no_expr_metadata.csv"

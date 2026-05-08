@@ -1,0 +1,25 @@
+# clean_midi_channel.yaml
+
+# 输入 MIDI 文件夹：只读取，不修改原文件
+input_midi_dir: "D:/organ-amt-generalization/data/raw/organ/BWV545/midi"
+
+# 输出 MIDI 文件夹：清理后的 MIDI 会保存到这里
+output_midi_dir: "D:/organ-amt-generalization/data/processed/clearmidi"
+
+# 目标 MIDI channel
+# 这里使用正常音乐软件里的编号 1-16
+target_channel: 1
+
+# 是否递归查找子文件夹里的 .mid / .midi
+recursive: false
+
+# 如果 recursive=true，是否保留原始子文件夹结构
+preserve_subfolders: true
+
+# 输出文件已存在时是否覆盖
+overwrite: true
+
+# 是否写出 metadata csv
+write_metadata: true
+
+metadata_filename: "clean_midi_channel_metadata.csv"
