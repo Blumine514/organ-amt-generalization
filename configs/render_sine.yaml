@@ -1,0 +1,22 @@
+project_root: "D:/organ-amt-generalization"
+
+vst_path: "C:/Program Files/Vstplugins/SINE Player.dll"
+
+sample_rate: 44100
+buffer_size: 512
+
+tail_sec: 3.0
+default_render_sec: 120.0
+
+beats: false
+all_events: true
+
+open_editor: false
+
+overwrite: false
+
+normalize_peak: false
+target_peak: 0.98
+
+write_metadata: true
+metadata_filename: "render_metadata.csv"
